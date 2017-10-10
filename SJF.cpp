@@ -39,7 +39,7 @@ void Process::printProcess(){
     printf("Finishing time: %d\n", finish_t);
     printf("Turnaround time: %d\n", finish_t-A);
     printf("IO time: %d\n", io_t);
-    printf("waitime: %d\n", wait_t);
+    printf("Waiting time: %d\n", wait_t);
     printf("\n");
 }
 

@@ -37,7 +37,7 @@ void Process::printProcess(){
     printf("Finishing time: %d\n", finish_t);
     printf("Turnaround time: %d\n", finish_t-A);
     printf("IO time: %d\n", io_t);
-    printf("waitime: %d\n", wait_t);
+    printf("Waiting time: %d\n", wait_t);
     printf("\n");
 }
 
@@ -79,7 +79,7 @@ int main(int argc, char** argv){
 	if (argc==3){
 		verbose = true;
 		input.open(argv[2]);
-	}
+	} 
 //	ifstream input("input-4.txt");
 	ifstream random_input("random-numbers.txt");
 	int n;
